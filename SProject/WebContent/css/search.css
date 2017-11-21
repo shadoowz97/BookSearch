@@ -1,0 +1,438 @@
+@CHARSET "UTF-8";
+#header {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	z-index: 1;
+	box-shadow: 0 8px 6px -6px #565656;
+}
+body{
+	margin:0;
+	padding:0;
+	over-flow:hidden;
+}
+.BookContainer {
+	width: 600px;;
+	height: 400px;
+	position: relative;
+	top: 45px;
+	left: 30%;
+	right: 30%;
+	z-index: 0;
+}
+
+.BookContainer .bookImage {
+	width: 120px;
+	height: 160px;
+	position: relative;
+	left: 50px;
+	top: 20px;
+}
+
+.BookContainer .testbutton {
+	width: 48px;
+	height: 22px;
+	position: absolute;
+	font-size: 8px;
+	top: 300px;
+	left: 20px;
+}
+
+.valueContainer {
+	display: none;
+	width: 500px;
+	height: 250px;
+	position: absolute;
+	top: 320px;
+	left: 20px;
+}
+
+.valueContainer .subbutton {
+	position: absolute;
+	display: inline-block;
+	right: 80px;
+	bottom: 15px;
+	width: 50px;
+	height: 20px;
+	font-size: 10px;
+}
+
+#header #login {
+	width: 50px;
+	height: 35px;
+	border-radius: 3px;
+	position: absolute;
+	top: 0px;
+	right: 140px;
+	color: white;
+	padding: 15px 5px 0px 5px;
+	font-family: "微软雅黑";
+}
+
+#header #signin {
+	width: 50px;
+	height: 34px;
+	border-radius: 3px;
+	position: absolute;
+	top: 0px;
+	right: 70px;
+	color: white;
+	padding: 15px 5px 0px 5px;
+	font-family: "微软雅黑";
+}
+#loginPage {
+	width: 300px;
+	height: 170px;
+	position: fixed;
+	top: 54px;
+	right: 100px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 10px #565656;
+	display: none;
+}
+
+.bookinfoContainer {
+	position: absolute;
+	right: 180px;
+	top: 20px;
+	width: 200px;
+	height: 150px;
+}
+
+.bookinfoContainer .bookname {
+	position: absolute;
+	top: 3px;
+	left: 50px;
+	width: 250px;
+	height: 20px;
+	font-size: 13px;
+}
+
+.bookinfoContainer .bookAuthor {
+	position: absolute;
+	top: 28px;
+	left: 50px;
+	width: 200px;
+	height: 20px;
+	font-size: 13px;
+}
+
+.bookinfoContainer .bookPrice {
+	position: absolute;
+	top: 53px;
+	left: 50px;
+	width: 200px;
+	height: 20px;
+	font-size: 13px;
+}
+
+.bookinfoContainer .bookRating {
+	position: absolute;
+	top: 80px;
+	left: 50px;
+	width: 200px;
+	height: 12px;
+	font-size: 8px;
+}
+
+.bookinfoContainer .bookIsbn {
+	position: absolute;
+	top: 103px;
+	left: 50px;
+	width: 200px;
+	height: 20px;
+	font-size: 13px;
+}
+
+.bookinfoContainer .bookTag {
+	position: absolute;
+	top: 128px;
+	left: 50px;
+	width: 200px;
+	height: 20px;
+	font-size: 13px;
+}
+
+.bookinfoContainer .booknameLabel {
+	position: absolute;
+	top: 3px;
+	left: 4px;
+	width: 40px;
+	height: 20px;
+	font-size: 13px;
+}
+
+.bookinfoContainer .bookAuthorLabel {
+	position: absolute;
+	top: 28px;
+	left: 4px;
+	width: 40px;
+	height: 20px;
+	font-size: 13px;
+}
+
+.bookinfoContainer .bookPriceLabel {
+	position: absolute;
+	top: 53px;
+	left: 4px;
+	width: 40px;
+	height: 20px;
+	font-size: 13px;
+}
+
+.bookinfoContainer .bookRatingLabel {
+	position: absolute;
+	top: 78px;
+	left: 4px;
+	width: 40px;
+	height: 20px;
+	font-size: 13px;
+}
+
+.bookinfoContainer .bookIsbnLabel {
+	position: absolute;
+	top: 103px;
+	left: 4px;
+	width: 40px;
+	height: 20px;
+	font-size: 13px;
+}
+
+.bookinfoContainer .bookTagLabel {
+	position: absolute;
+	top: 128px;
+	left: 4px;
+	width: 40px;
+	height: 20px;
+	font-size: 13px;
+}
+
+.summaryContainer {
+	width: 450px;
+	height: 75px;
+	position: absolute;
+	top: 210px;
+	left: 75px;
+	right: 75px;
+	padding: 6px 5px 5px 3px;
+	font-size: 13px;
+}
+
+.divide {
+	width: 520px;
+	left: 20px;
+	position: absolute;
+	top: 193px;
+	color: darkgray;
+	align: left;
+}
+
+#SearcherContainer {
+	width: 500px;
+	height: 80px;
+	position: relative;
+	top: 45px;
+	left: 35%;
+	right: 35%;
+}
+
+#SearcherContainer #searchinput {
+	width: 240px;
+	height: 30px;
+	font-size: 25px;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	border: 1px solid black;
+}
+
+#SearcherContainer #searcherImage {
+	position: relative;
+	width: 35px;
+	height: 35px;
+	top: 10px;
+	left: 262px;
+	background-image: url("img/but2.png");
+}
+
+#SearcherContainer #luence {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+#SearcherContainer #db {
+	position: absolute;
+	top: 50px;
+	left: 130px;
+}
+
+#SearcherContainer #tj {
+	position: absolute;
+	top: 50px;
+	left: 210px;
+	font-family: "微软雅黑";
+}
+
+#loginPage #userlable {
+	font-size: 13px;
+	position: absolute;
+	height: 20px;
+	left: 34px;
+	top: 33px;
+	font-family: "微软雅黑";
+}
+
+#loginPage #passwordlabel {
+	font-size: 13px;
+	position: absolute;
+	height: 20px;
+	left: 36px;
+	top: 77px;
+	font-family: "微软雅黑";
+}
+
+#loginPage #username {
+	position: absolute;
+	left: 80px;
+	top: 30px;
+	border-radius: 3px;
+}
+
+#loginPage #returnmsg {
+	position: absolute;
+	top: 98px;
+	width: 50%;
+	height: 15px;
+	left: 25%;
+	right: 25%;
+	color: red;
+	font-size: 13px;
+	text-align: center;
+}
+
+#loginPage #password {
+	position: absolute;
+	left: 80px;
+	top: 70px;
+	border-radius: 3px;
+}
+
+#loginPage #loginHr {
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	width: 80%;
+	top: 110px;
+}
+
+#loginPage #loginsubmit {
+	position: absolute;
+	left: 40%;
+	right: 40%;
+	width: 20%;
+	height: 20px;
+	top: 130px;
+	font-family: courier;
+	font-size: 15px;
+	background: midnightblue;
+	color: white;
+	box-shadow: 0px 0px 10px #565656;
+}
+
+.valueContainer .Valuetext {
+	position: absolute;
+	bottom: 40px;
+	width: 400px;
+	height: 200px;
+	left: 30px;
+	font-size: 14px;
+	border-radius: 3px;
+	border-color: green;
+}
+
+.averHr {
+	width: 800px;
+}
+
+#header #personalRec {
+	width: 100px;
+	height: 35px;
+	border-radius: 3px;
+	position: absolute;
+	top: 0px;
+	left: 300px;
+	color: white;
+	text-align: center;
+	padding: 15px 5px 0px 5px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+
+#header #personalInfo {
+	width: 100px;
+	height: 35px;
+	border-radius: 3px;
+	position: absolute;
+	top: 0px;
+	left: 400px;
+	color: white;
+	text-align: center;
+	padding: 15px 5px 0px 5px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+
+#header #personalPre {
+	width: 100px;
+	height: 35px;
+	border-radius: 3px;
+	position: absolute;
+	top: 0px;
+	left: 500px;
+	color: white;
+	text-align: center;
+	padding: 15px 5px 0px 5px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+
+#header #searcherHistory {
+	width: 100px;
+	height: 35px;
+	border-radius: 3px;
+	position: absolute;
+	top: 0px;
+	left: 600px;
+	color: white;
+	text-align: center;
+	padding: 15px 5px 0px 5px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+
+#header #person {
+	width: 200px;
+	height: 35px;
+	border-radius: 3px;
+	position: absolute;
+	top: 0px;
+	right: 200px;
+	color: white;
+	text-align: center;
+	padding: 15px 5px 0px 5px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+.bookinfoContainer .Detailed{
+				position:absolute;
+				top:150px;
+				left:26px;
+				width:120px;
+				height:20px;
+				font-size: 12px;
+				color: green;
+				text-decoration: none;
+			}

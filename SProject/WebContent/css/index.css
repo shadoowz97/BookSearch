@@ -1,0 +1,163 @@
+@CHARSET "UTF-8";
+
+#bg {
+	background: url("../img/back1.jpg");
+	position: absolute;
+	height: 780px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+#hguide {
+	display: inline-block;
+	width: 1800px;
+	height: 30px;
+	left: 50px;
+	position: relative;
+}
+
+.li1 {
+	width: 200px;
+	text-align: center;
+	height: 20px;
+	list-style: none;
+	display: inline-block;
+}
+
+li a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	vertical-align: top;
+}
+
+.filed {
+	width: 200px;
+	height: 20px;
+}
+
+#submit {
+	width: 100px;
+	height: 20px;
+}
+
+.input {
+	color: white;
+	display: inline-block;
+	font-style: italic;
+}
+
+#ajaxFrm {
+	color: white;
+	font-style: oblique;
+	display: inline-block;
+}
+
+#signup {
+	display: inline-block;
+	width: 100px;
+	color: white;
+	position: relative;
+	left: 850px;
+	text-decoration: none;
+}
+
+#search {
+	width: 1000px;
+	height: 45px;
+	position: relative;
+	top: 100px;
+	left: 50px;
+	padding: 0px;
+}
+
+#searchWord {
+	width: 400px;
+	height: 45px;
+	position: relative;
+	font-size: 30px;
+	padding: 0px;
+	margin: 0;
+	display: inline-block;
+	top: -14px;
+	left: 58px;
+}
+
+#Simg {
+	position: relative;
+	left: 50px;
+	display: inline-block;
+	height: 48px;
+	width: 45px;
+}
+
+#ss {
+	margin: 0px;
+	padding: 0px;
+}
+
+#guide {
+	position: fixed;
+	width: 1px;
+	height: 400px;
+	right: 0px;
+	text-align: right;
+	background-color: black;
+}
+
+.guidel {
+	display: inline-block;
+	width: 45px;
+	height: 100px;
+	text-decoration: none;
+	top: 15px;
+	color: white;
+}
+
+#header #personalRec {
+	width: 100px;
+	height: 35px;
+	border-radius: 3px;
+	position: absolute;
+	top: 0px;
+	left: 300px;
+	color: white;
+	text-align: center;
+	padding: 15px 5px 0px 5px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+
+#header #personalInfo {
+	width: 100px;
+	height: 35px;
+	border-radius: 3px;
+	position: absolute;
+	top: 0px;
+	left: 400px;
+	color: white;
+	text-align: center;
+	padding: 15px 5px 0px 5px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+
+#header #personalPre {
+	width: 100px;
+	height: 35px;
+	border-radius: 3px;
+	position: absolute;
+	top: 0px;
+	left: 500px;
+	color: white;
+	text-align: center;
+	padding: 15px 5px 0px 5px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+
+#way {
+	display: none;
+}

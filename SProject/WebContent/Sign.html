@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script src="js/jquery-3.2.0.min.js"></script>
+</head>
+<body>
+
+	<form action="usersign.jsp" id="sign" method="post">
+		帐号：<input type="text" name="username"> <br>
+		密码：<input type="password" id="1" name="password"> <br>
+		确认密码：<input type="password" id="2" name="password1"> <br>
+		性别：男<input type="radio" name="xb" value="M"> 女<input type="radio" name="xb" value="F"> <br>
+		年龄：<input type="text" name="age" /> <br>
+		标签：<input type="text" name="tag"> <br>
+		<button id="submit" type="button" value="注册">注册</button>
+	</form>
+	<script>
+      	$("#submit").click(function(){
+      		if($("#1").val()==$("#2").val()){
+      			$.ajax({
+      				cache:false,
+      				type:"post",
+      				url:"usersign.jsp",
+      				data:$("#sign").serialize(),
+      				async:false,
+      				error:function(){
+      					alert($("#sign").serialize());
+      				},
+      				success:function(data){
+      					alert("注册成功");
+      					window.location.href="index.jsp";
+      				}
+      				
+      			})
+      		}
+      	})
+      </script>
+</body>
+
+</html>

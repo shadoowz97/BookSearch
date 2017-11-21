@@ -1,0 +1,237 @@
+@CHARSET "UTF-8";
+#BookDetailed{
+				width:600px;;
+				height:1000px;
+				position:relative;
+				top:45px;
+				left:30%;
+				right:30%;
+				z-index:0;
+				
+			}
+			#BookDetailed #BookImage{
+				width:128px;
+				height:166px;
+				position:relative;
+				left:50px;
+				top:20px;
+				display: inline-block;
+			}
+			#BookDetailed #InfoContainer{
+				position:relative;
+				left:60px;
+				top:60px;
+				width:200px;
+				height:230px;
+				display: inline-block;
+			}
+			#InfoContainer #BooktitleLabel{
+				position:absolute;
+				top:7px;
+				left:7px;
+				width:60px;
+				height:18px;
+				text-align: center;;
+				font-size: 13px;
+			}
+			#InfoContainer #AuthorLabel{
+				position:absolute;
+				top:31px;
+				left:7px;
+				width:60px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #PriceLabel{
+				position:absolute;
+				top:55px;
+				left:7px;
+				width:60px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #RatingLabel{
+				position:absolute;
+				top:79px;
+				left:7px;
+				width:60px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #PublisherLabel{
+				position:absolute;
+				top:103px;
+				left:7px;
+				width:60px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #PublishDateLabel{
+				position:absolute;
+				top:127px;
+				left:7px;
+				width:60px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #PagesLabel{
+				position:absolute;
+				top:151px;
+				left:7px;
+				width:60px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #ISBNLabel{
+				position:absolute;
+				top:175px;
+				left:7px;
+				width:60px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #TagsLabel{
+				position:absolute;
+				top:199px;
+				left:7px;
+				width:60px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #Booktitle{
+				position:absolute;
+				top:7px;
+				left:71px;
+				width:120px;
+				height:18px;
+				text-align: center;;
+				font-size: 13px;
+			}
+			#InfoContainer #Author{
+				position:absolute;
+				top:31px;
+				left:71px;
+				width:120px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #Price{
+				position:absolute;
+				top:55px;
+				left:71px;
+				width:120px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #Rating{
+				position:absolute;
+				top:79px;
+				left:71px;
+				width:120px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #Publisher{
+				position:absolute;
+				top:103px;
+				left:71px;
+				width:120px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #PublishDate{
+				position:absolute;
+				top:127px;
+				left:71px;
+				width:120px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #Pages{
+				position:absolute;
+				top:151px;
+				left:71px;
+				width:120px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #ISBN{
+				position:absolute;
+				top:175px;
+				left:71px;
+				width:120px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			#InfoContainer #Tags{
+				position:absolute;
+				top:199px;
+				left:71px;
+				width:120px;
+				height:18px;
+				text-align: center;
+				font-size: 13px;
+			}
+			
+			
+			#BookDetailed #HrBookSummary{
+				position:relative;
+				top:80px;
+				width: 100%;
+				height:15px;
+				left:50px;
+				font-size:13px;
+				color: green;
+				display: ;
+			}
+			#BookDetailed #BookSummary{
+				position:relative;
+				top:90px;
+				width:400px;
+				left:70px;
+				height: 90px;
+				font-size: 12px;
+			}
+			#BookDetailed #HrAuthorIntro{
+				position:relative;
+				top:100px;
+				width: 100%;
+				height:15px;
+				left:50px;
+				font-size:13px;
+				color: green;
+				
+			}
+			#BookDetailed #AuthorIntro{
+				position:relative;
+				top:110px;
+				width:400px;
+				left:70px;
+				height: 100px;
+				font-size: 12px;
+			}
+			#BookDetailed #HrEvalution{
+				position:relative;
+				top:125px;
+				width: 100%;
+				height:15px;
+				left:50px;
+				font-size:13px;
+				color: green;
+			
+			}
