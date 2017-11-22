@@ -18,7 +18,7 @@ Most of them are not provided this time(including mod file of Word2VEC and all d
 
 i use google's algorithm Word2VEC to get words' vector,and use words' vector to recommend books to user
 
-recently ,i find it too difficulty to do rerank or recommend part ,maybe three months later the core of rs will still be a low one
+recently ,i find it too difficult to do rerank or recommend part ,maybe three months later the core of rs will still be a low one
 
 
 
