@@ -1,4 +1,4 @@
-package com.beans;
+package pri.shadoowz.beans;
 
 public class Rating {
 private int max;

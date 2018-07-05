@@ -24,7 +24,7 @@ public class ServletConfig implements ServletContextListener{
 		ServletContext context=event.getServletContext();
 		Word2VEC w2v=new Word2VEC();
 		try {
-			w2v.loadJavaModel("D:/j2ee/SProject/WebContent/ExcTarget/vector.mod");
+			w2v.loadJavaModel("E:/test.git/SProject/WebContent/ExcTarget/vector.mod");
 			System.out.println("Successful!");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

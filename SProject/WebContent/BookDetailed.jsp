@@ -4,9 +4,9 @@
     <%@page import="com.google.gson.Gson"%>
     <%@page import="java.net.URL"%>
     <%@page import="com.GetDoubanSearch.*" %>
-    <%@page import="com.beans.*" %>
-    <%@page import="org.User.*" %>
-    <%@page import="com.jdbc.DataBaseConnector.*"%> 
+    <%@page import="pri.shadoowz.beans.*" %>
+    <%@page import="pri.shadoowz.User.*" %>
+    <%@page import="pri.shadoowz.jdbc.DataBaseConnector.*"%> 
     <%@page import="com.info.*" %>
      <%@page import="java.util.*" %>
 <%@page import="java.sql.*" %>
@@ -25,7 +25,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="css/search.css" />
 <link rel="stylesheet" href="css/BookDetail.css" />

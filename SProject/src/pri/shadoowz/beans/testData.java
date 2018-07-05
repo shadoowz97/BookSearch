@@ -1,4 +1,4 @@
-package com.beans;
+package pri.shadoowz.beans;
 
 import java.util.ArrayList;
 import java.util.HashMap;

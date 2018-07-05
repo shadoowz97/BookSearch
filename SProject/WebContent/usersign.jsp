@@ -2,9 +2,9 @@
     pageEncoding="UTF-8"%>
    <%@page import="java.io.*" %>
     <%@page import="com.google.gson.Gson"%>
-    <%@page import="com.beans.*" %>
-    <%@page import="org.User.*" %>
-    <%@page import="com.jdbc.DataBaseConnector.*"%> 
+    <%@page import="pri.shadoowz.beans.*" %>
+    <%@page import="pri.shadoowz.User.*" %>
+    <%@page import="pri.shadoowz.jdbc.DataBaseConnector.*"%> 
 <%@page import="java.sql.*" %>
     <%
     Connector c=new Connector();

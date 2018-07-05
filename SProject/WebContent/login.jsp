@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@page import="com.jdbc.DataBaseConnector.*"%> 
+<%@page import="pri.shadoowz.jdbc.DataBaseConnector.*"%> 
 <%@page import="java.sql.*" %>
 <%@page import="com.LuenceSearcher.*" %>
-<%@page import="org.User.*" %>
+<%@page import="pri.shadoowz.User.*" %>
 <%
 Connector c=new Connector();
 String username=(String)request.getParameter("username");

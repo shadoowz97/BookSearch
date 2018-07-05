@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@page import="com.jdbc.DataBaseConnector.*"%> 
+<%@page import="pri.shadoowz.jdbc.DataBaseConnector.*"%> 
 <%@page import="java.sql.*" %>
-<%@page import="org.User.*"%>
+<%@page import="pri.shadoowz.User.*"%>
 <%@page import="java.util.Date"%>
 <%@page import="java.text.SimpleDateFormat"%>
 
@@ -17,7 +17,12 @@ Connector c=new Connector();
 Statement s=c.con.createStatement();
 User u=(User)session.getAttribute("user");
 u.getHistory().add(isbn);
+try{
 s.executeUpdate("insert into searcherhistory(username,bookisbn,time) values('"+u.getUsername()+"','"+isbn+"','"+time+"')");
+}
+catch(Exception e){
+	System.out.println("error");
+}
 out.clear();
 if(s.executeUpdate("insert into evalutionBooks(userid,bookname,evcontent,Evtime)"+
 		"values('"+((User)session.getAttribute("user")).getUsername()+"',"+"'"+bookname+"','"+

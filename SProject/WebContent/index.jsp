@@ -3,8 +3,8 @@ pageEncoding="UTF-8"%>
  <%@page import="java.io.*" %>
     <%@page import="com.google.gson.Gson"%>
     <%@page import="java.net.URL"%>
-    <%@page import="com.beans.*" %>
-    <%@page import="org.User.*" %>
+    <%@page import="pri.shadoowz.beans.*" %>
+    <%@page import="pri.shadoowz.User.*" %>
      <%@page import="com.GetDoubanSearch.*" %>
      <%@page import="java.util.*"%>
      <%@page import="com.info.*"%>
@@ -49,7 +49,7 @@ var username='<%=name%>';
 		$("#guide").animate({width:"10px"});
 		2
 		$("#guide").css("text-align","right");
-		}
+		}7
   
 	
 			function doFind() {

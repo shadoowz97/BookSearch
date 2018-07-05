@@ -29,7 +29,7 @@ public class Searcher {
 		Initial();
 	}
 	private void Initial() throws IOException{
-		Directory directory = FSDirectory.open(Paths.get("D:/j2ee/SProject/WebContent/LuenceDoc"));
+		Directory directory = FSDirectory.open(Paths.get("E:/test.git/SProject/WebContent/LuenceDoc"));
 		DirectoryReader ireader = DirectoryReader.open(directory);
 	    this.isearcher = new IndexSearcher(ireader);
 	    

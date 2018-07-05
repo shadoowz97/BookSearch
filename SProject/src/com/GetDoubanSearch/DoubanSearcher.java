@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
@@ -11,11 +12,12 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.beans.DoubanSearchBean;
-import com.beans.Tag;
-import com.beans.doubanBean;
 import com.google.gson.Gson;
 import com.info.tempDoc;
+
+import pri.shadoowz.beans.DoubanSearchBean;
+import pri.shadoowz.beans.Tag;
+import pri.shadoowz.beans.doubanBean;
 
 
 public class DoubanSearcher {
@@ -60,6 +62,7 @@ public ArrayList<tempDoc> query(String querydata,boolean flag){
 	   while ((line = in.readLine()) != null) {
 	    //遍历抓取到的每一行并将其存储到result里面
 	    result += line+"\n";
+	    result=new String(result.getBytes("ISO-8859-1"),"UTF-8");
 	   }
 	  } catch (Exception e) {
 	   System.out.println("发送GET请求出现异常！" + e);
@@ -105,7 +108,7 @@ public ArrayList<tempDoc> query(String querydata,boolean flag){
 	return tp;
 	
 }
-public static doubanBean search(String url){
+public static doubanBean search(String url) throws UnsupportedEncodingException{
 	
 	  // 定义一个字符串用来存储网页内容
 	  String result = "";
@@ -139,6 +142,7 @@ public static doubanBean search(String url){
 			e.printStackTrace();
 		}
 	  }
+	  result=new String(result.getBytes("ISO-8859-1"),"UTF-8");
 	  Gson g=new Gson();
 	  doubanBean db=null;
 	  try{

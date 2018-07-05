@@ -1,4 +1,4 @@
-package org.User;
+package pri.shadoowz.User;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -8,7 +8,8 @@ import java.util.Stack;
 
 import com.ansj.vec.Word2VEC;
 import com.info.tempDoc;
-import com.jdbc.DataBaseConnector.Connector;
+
+import pri.shadoowz.jdbc.DataBaseConnector.Connector;
 
 public class User {
 private String Username;

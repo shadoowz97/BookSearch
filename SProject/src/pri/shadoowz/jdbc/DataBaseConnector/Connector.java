@@ -1,4 +1,4 @@
-package com.jdbc.DataBaseConnector;
+package pri.shadoowz.jdbc.DataBaseConnector;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -33,16 +33,11 @@ private Connection getConnection() throws SQLException{
 	return (Connection)DriverManager.getConnection(url, username, password);
 	
 }
-public void QueryData(String QueryData){
-	try {
-		Statement state=con.createStatement();
-		rs=state.executeQuery(QueryData);
-	} catch (SQLException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
+
+public Connection getConn(){
+	return this.con;
 }
-//public void QueryData
+
 private String url="jdbc:mysql://localhost:3306/SummerProject";
 private String username="dbuser";
 private String password="1234";
